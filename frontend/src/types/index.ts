@@ -35,6 +35,7 @@ export interface Fatura {
 }
 
 export interface DashboardData {
+  saldoMesAnterior: number
   totalReceitas: number
   totalDespesas: number
   saldo: number
